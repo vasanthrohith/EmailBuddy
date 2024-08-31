@@ -14,8 +14,8 @@ To set up and run Email Buddy locally, follow these steps:
 
 1. **Clone the Repository**
 
-   git clone https://github.com/vasanthrohith/EmailBuddy.git
-   cd EmailBuddy
+   - git clone https://github.com/vasanthrohith/EmailBuddy.git
+   - cd EmailBuddy
    
 
 2. **Install poetry**
