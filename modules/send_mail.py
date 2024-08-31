@@ -16,8 +16,6 @@ class SendMail_Notify:
         pass
     def Send_Mail(self,mail_body,subject, sender_mail, rec_mail):
         print("--Send_Mail--")
-        # print(sender_mail, mail_app_password)
-        print("Mail body : ", mail_body)
         for dest in rec_mail:
             s = smtplib.SMTP('smtp.gmail.com', 587)
             s.starttls()
